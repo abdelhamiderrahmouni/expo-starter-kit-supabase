@@ -22,6 +22,14 @@ A modern React Native starter kit built with Expo, featuring a clean architectur
 - Clean and organized project structure
 - TypeScript support for better development experience
 
+It also contains two components:
+- `src/components/AppText.tsx` for text
+- `src/components/Button.tsx` for 3 button variants
+
+And one utility:
+- `src/utils/cn.ts` for merging Tailwind classes
+
+
 ## 🏗️ Project Structure
 ```
 expo-app-starter/
