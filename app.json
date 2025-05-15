@@ -12,13 +12,7 @@
       "tsconfigPaths": true
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-audio",
-        {
-          "microphonePermission": "Allow $(PRODUCT_NAME) to access your microphone."
-        }
-      ]
+      "expo-router"
     ],
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -32,12 +26,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "infoPlist": {
-        "UIBackgroundModes": [
-          "audio"
-        ]
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
