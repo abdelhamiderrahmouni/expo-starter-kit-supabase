@@ -12,22 +12,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "^53.0.7",
-    "expo-status-bar": "~2.2.3",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "2.1.2",
+    "@supabase/supabase-js": "^2.49.4",
     "clsx": "^2.1.1",
+    "expo": "^53.0.7",
+    "expo-constants": "~17.1.5",
+    "expo-linking": "~7.1.4",
+    "expo-router": "~5.0.5",
+    "expo-status-bar": "~2.2.3",
     "nativewind": "latest",
     "react": "19.0.0",
+    "react-dom": "19.0.0",
     "react-native": "0.79.2",
     "react-native-reanimated": "~3.17.4",
     "react-native-safe-area-context": "5.4.0",
-    "expo-router": "~5.0.5",
     "react-native-screens": "~4.10.0",
-    "expo-linking": "~7.1.4",
-    "expo-constants": "~17.1.5",
+    "react-native-url-polyfill": "^2.0.0",
     "react-native-web": "^0.20.0",
-    "react-dom": "19.0.0",
-    "tailwind-merge": "^3.0.1",
-    "@expo/vector-icons": "^14.1.0"
+    "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
